@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<!--
+            <ImageView
+                android:id="@+id/imgLineExploreDetail1"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_height="200dp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_height="200dp"
+                android:gravity="bottom"
+                android:background="@drawable/teste">
+
+                <TextView
+                    android:id="@+id/lblTitle"
+                    android:layout_marginLeft="14dp"
+                    android:text="TextText"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/lblDescription"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="17dp"
+                android:text="TextText"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/lblDetails"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="17dp"
+                android:text="Detalhes"
+                android:textSize="12sp"
+                android:textColor="@color/lipstrick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLayoutTime"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgLineExploreDetail"
+                android:layout_marginRight="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_below="@+id/imgLineExploreDetail"
+                android:id="@+id/lblTimeToGetStore"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="btn_menu_top">42pt</dimen>
+    <dimen name="btn_menu_left">19pt</dimen>
+    <dimen name="btn_menu_width">18pt</dimen>
+    <dimen name="btn_menu_height">12pt</dimen>
+
+    <dimen name="btn_menu_top_simbolic">25pt</dimen>
+    <dimen name="btn_menu_left_simbolic">10pt</dimen>
+    <dimen name="btn_menu_width_simbolic">25pt</dimen>
+    <dimen name="btn_menu_height_simbolic">25pt</dimen>
+
+    <dimen name="btn_back_top">42pt</dimen>
+    <dimen name="btn_back_left">19pt</dimen>
+    <dimen name="btn_back_width">18pt</dimen>
+    <dimen name="btn_back_height">12pt</dimen>
+
+    <dimen name="btn_close_top">36pt</dimen>
+    <dimen name="btn_close_right">16pt</dimen>
+    <dimen name="btn_close_width">24pt</dimen>
+    <dimen name="btn_close_height">24pt</dimen>
+
+    <dimen name="btn_close_top_simbolic">25pt</dimen>
+    <dimen name="btn_close_right_simbolic">10pt</dimen>
+    <dimen name="btn_close_width_simbolic">50pt</dimen>
+    <dimen name="btn_close_height_simbolic">50pt</dimen>
+
+    <dimen name="btn_search_top">36pt</dimen>
+    <dimen name="btn_search_right">280pt</dimen>
+    <dimen name="btn_search_width">24pt</dimen>
+    <dimen name="btn_search_height">24pt</dimen>
+
+    <dimen name="btn_search_top_simbolic">25pt</dimen>
+    <dimen name="btn_search_right_simbolic">250pt</dimen>
+    <dimen name="btn_search_width_simbolic">50pt</dimen>
+    <dimen name="btn_search_height_simbolic">50pt</dimen>
+
+</resources>

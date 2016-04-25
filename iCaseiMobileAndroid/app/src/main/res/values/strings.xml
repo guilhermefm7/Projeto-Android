@@ -1,0 +1,5 @@
+<resources>
+<string name="app_name">iCaseiMobileAndroid</string>
+<string name="search_movie">Busque um filme</string>
+<string name="search_movie_info">Para buscar um filme é simples, basta digitar o título no campo de busca.</string>
+</resources>
